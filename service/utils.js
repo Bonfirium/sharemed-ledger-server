@@ -22,13 +22,10 @@ async function clearWallets() {
 }
 
 class Fabric {
-	walletsCount = 0;
-
-	wallet;
-	walletPath;
-	_gateway = new Gateway();
 
 	constructor(organization) {
+		this._gateway = new Gateway();
+		this.walletsCount = 0;
         this.organization = organization;
 		this.walletPath = path.resolve(walletsPath, Fabric.walletsCount.toString(10));
 		Fabric.walletsCount += 1;

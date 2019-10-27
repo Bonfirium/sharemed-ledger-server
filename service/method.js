@@ -2,16 +2,16 @@ const { ok } = require('assert');
 const { Contract } = require('fabric-contract-api');
 const { empty, chars, varuint, BigNumber } = require('nl-marshal');
 
-const { Organization, mspOf, collectionOfMSP } = require('./organizations');
+const { Organization, mspOf, collectionOfMSP } = require('../config/organisations');
 const { linkApprove, accountId, accountLink, addDocumentRequest, document, collectionDocument } = require('./types');
 
 const METHOD = {
-	GET_DOCUMENTS_COUNT = "getDocumentsCount",
-	GET_USER_ID = "getUserId",
-	GET_ORIGIN = "getOrigin",
-	LINK_ACCOUNT = "linkAccount",
-	APPROVE_LINK = "approveLink",
-	ADD_DOCUMENT = "addDocument",
+	GET_DOCUMENTS_COUNT: "getDocumentsCount",
+	GET_USER_ID: "getUserId",
+	GET_ORIGIN: "getOrigin",
+	LINK_ACCOUNT: "linkAccount",
+	APPROVE_LINK: "approveLink",
+	ADD_DOCUMENT: "addDocument",
 }
 
 const args = {

@@ -1,15 +1,15 @@
 const Organization = {
-	AuthOrg = "AuthOrg",
-	MedOrg1 = "MedOrg1",
-	MedOrg2 = "MedOrg2",
-	MedOrg3 = "MedOrg3",
+	AuthOrg: "AuthOrg",
+	MedOrg1: "MedOrg1",
+	MedOrg2: "MedOrg2",
+	MedOrg3: "MedOrg3",
 }
 
 const OrganizationMSP = {
-	AuthOrg = "AuthOrgMSP",
-	MedOrg1 = "MedOrg1MSP",
-	MedOrg2 = "MedOrg2MSP",
-	MedOrg3 = "MedOrg3MSP",
+	AuthOrg: "AuthOrgMSP",
+	MedOrg1: "MedOrg1MSP",
+	MedOrg2: "MedOrg2MSP",
+	MedOrg3: "MedOrg3MSP",
 }
 
 const mspOf = {

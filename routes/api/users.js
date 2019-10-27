@@ -7,7 +7,6 @@ const Users = mongoose.model('Users');
 const {
   getAdminByOrg,
   authOrgUserRegistration,
-  authOrgUserRegistration,
   medOrgUserRegistration,
   linkUserWithOrganisation,
   approve,

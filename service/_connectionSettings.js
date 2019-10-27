@@ -1,7 +1,5 @@
 const { readFile } = require('fs-extra');
 const path = require('path');
-const { Organization, mspOf, organizations } = require('fs-extra');
-
 const { Organization, mspOf, organizations } = require('../config/organisations');
 
 const rootPath = path.resolve(__dirname, '../');

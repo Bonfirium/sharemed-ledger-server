@@ -64,10 +64,10 @@ app.use((err, req, res) => {
 });
 
 app.listen(8000, async () => {
-  await loadCertificates();
-  const enrolements = Object.values(Organization).map((org) => {
-      return orgAdminEnrolement(org);
-  })
-  await Promise.all(enrolements);
+  // await loadCertificates();
+  // const enrolements = Object.values(Organization).map((org) => {
+  //     return orgAdminEnrolement(org);
+  // })
+  // await Promise.all(enrolements);
   console.log('Server running on http://localhost:8000/')
 });
